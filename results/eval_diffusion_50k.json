@@ -1,0 +1,128 @@
+{
+  "per_task": [
+    {
+      "task_group": "pusht",
+      "task_id": 0,
+      "metrics": {
+        "sum_rewards": [
+          60.97880508907282,
+          0.0,
+          158.62865270746835,
+          118.44713821319465,
+          64.41349940103544,
+          0.0,
+          105.45161363223046,
+          38.11895787569718,
+          0.042587538636524105,
+          96.61570869954066,
+          8.305749150438142,
+          35.075806358582525,
+          91.3798143073818,
+          64.6409578442192,
+          70.15404682724949,
+          170.57130232412123,
+          0.0363983222410708,
+          153.2867656032514,
+          27.987762615910317,
+          150.32890083558874
+        ],
+        "max_rewards": [
+          0.8876867086279507,
+          0.0,
+          0.9728525429915117,
+          1.0,
+          0.9232863308448227,
+          0.0,
+          0.6959823488893727,
+          1.0,
+          0.0033558529898064598,
+          0.5980508486970955,
+          0.29706575821937997,
+          1.0,
+          0.6638487803912351,
+          1.0,
+          0.6365804686780551,
+          1.0,
+          0.0024027874972017108,
+          0.6798687023739083,
+          1.0,
+          1.0
+        ],
+        "successes": [
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          true,
+          false,
+          true,
+          false,
+          false,
+          true,
+          true
+        ],
+        "video_paths": [
+          "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_0.mp4",
+          "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_1.mp4",
+          "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_2.mp4",
+          "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_3.mp4",
+          "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_4.mp4",
+          "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_5.mp4",
+          "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_6.mp4",
+          "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_7.mp4",
+          "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_8.mp4",
+          "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_9.mp4"
+        ]
+      }
+    }
+  ],
+  "per_group": {
+    "pusht": {
+      "avg_sum_reward": 70.72322336729297,
+      "avg_max_reward": 0.668049056510017,
+      "pc_success": 35.0,
+      "n_episodes": 20,
+      "video_paths": [
+        "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_0.mp4",
+        "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_1.mp4",
+        "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_2.mp4",
+        "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_3.mp4",
+        "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_4.mp4",
+        "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_5.mp4",
+        "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_6.mp4",
+        "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_7.mp4",
+        "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_8.mp4",
+        "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_9.mp4"
+      ]
+    }
+  },
+  "overall": {
+    "avg_sum_reward": 70.72322336729297,
+    "avg_max_reward": 0.668049056510017,
+    "pc_success": 35.0,
+    "n_episodes": 20,
+    "eval_s": 160.9896821975708,
+    "eval_ep_s": 8.04948410987854,
+    "video_paths": [
+      "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_0.mp4",
+      "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_1.mp4",
+      "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_2.mp4",
+      "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_3.mp4",
+      "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_4.mp4",
+      "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_5.mp4",
+      "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_6.mp4",
+      "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_7.mp4",
+      "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_8.mp4",
+      "C:\\Users\\mahad\\trackB_runs\\eval_diffusion_final\\videos\\pusht_0\\eval_episode_9.mp4"
+    ]
+  }
+}

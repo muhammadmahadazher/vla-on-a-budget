@@ -139,11 +139,25 @@ Every training run saves rollout videos at each checkpoint (`runs/<name>/eval/vi
 Watching ACT try, stall, and orbit the block while diffusion calmly finishes is the whole
 lesson of this repo in 20 seconds of MP4.
 
+### Or reproduce everything with one command
+
+```bash
+python run_benchmark.py                  # full study (~14 GPU-hours), resumable
+python run_benchmark.py --policies act   # just one policy
+python run_benchmark.py --eval-only      # re-benchmark finished runs
+python run_benchmark.py --device mps     # macOS
+```
+
+Interrupt it anytime — every run checkpoints, and re-running resumes automatically.
+
 ## Layout
 
 ```
 README.md            you are here
-make_figures.py      regenerates docs/results.png + docs/rollouts.png from run logs
+run_benchmark.py     one-command reproduction: train all 3 + benchmark + summary.json
+make_figures.py      regenerates docs/results.png + docs/rollouts.png
+results/
+  eval_*.json        the measured 20-episode benchmarks behind every number above
 docs/
   results.png        training curves + final 20-episode benchmark
   rollouts.png       frame strips: ACT failure mode vs diffusion success
