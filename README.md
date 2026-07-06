@@ -8,7 +8,7 @@
 [![LeRobot](https://img.shields.io/badge/LeRobot-0.5.1-FF9D00)](https://github.com/huggingface/lerobot)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.10-EE4C2C?logo=pytorch&logoColor=white)](https://pytorch.org/)
 [![GPU](https://img.shields.io/badge/GPU-RTX_4060_Laptop_8GB-76B900?logo=nvidia&logoColor=white)](#)
-[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![License](https://img.shields.io/badge/license-Apache_2.0-green)](LICENSE)
 
 <img src="docs/results.png" width="95%" alt="Training curves and final benchmark"/>
 
@@ -171,5 +171,5 @@ Perception-side sibling: [**OpenVocab-4D**](https://github.com/muhammadmahadazhe
 open-vocabulary 4D scene understanding (VGGT + SAM 3) on the same 8 GB laptop.
 
 <div align="center">
-<sub>Every number in this README was measured on one RTX 4060 Laptop GPU · MIT License</sub>
+<sub>Every number in this README was measured on one RTX 4060 Laptop GPU · Apache 2.0 License</sub>
 </div>
